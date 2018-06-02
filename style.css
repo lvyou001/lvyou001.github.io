@@ -1,0 +1,207 @@
+h2{
+  height: 2rem;
+  line-height: 2rem;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 100%;
+  font-size: 0;
+}
+.banner{
+  width: 100%;
+  height: auto;
+}
+body{
+  margin: 0 auto;
+  max-width: 750px;
+  overflow: auto;
+  height: 100%;
+  padding-bottom: 45px;
+  -webkit-overflow-scrolling:touch;
+}
+div{
+  font-size: 0;
+}
+.top{
+  width: 100%;
+  height: auto;
+  padding: 0 3%;
+  margin-top: 10px;
+}
+.top div{
+  width: 45%;
+  float: left;
+  margin-top: 10px;
+  font-size: 0;
+}
+.top div.left{
+  margin-left:4%;
+}
+.max-body{
+  width: 100%;
+  height: auto;
+  background: url('https://img01.wanfangche.com/public/upload/201806/02/5b1228eca9a8a.png?x-oss-process=style/large') repeat;
+  background-size: 100%;
+  float: left;
+  padding-bottom: 70px;
+}
+.foot{
+  width: 100%;
+  height: 45px;
+  background: url('https://img01.wanfangche.com/public/upload/201806/02/5b1228ec78d5d.png?x-oss-process=style/large') no-repeat;
+  background-size: 100%;
+  position: fixed;
+  bottom: 0;
+  max-width: 750px;
+}
+.foot p{
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  line-height: 45px;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+.title{
+  width: 90%;
+  height: auto;
+  padding: 0 5%;
+  float: left;
+  margin: 10px 0;
+}
+.topone{
+  width: 100%;
+  height: auto;
+  padding: 0 3%;
+}
+.topone dl{
+  width: 26%;
+  height: auto;
+  margin-top: 15px;
+  float: left;
+  background:#FFFFFF;
+  padding: 6px 1.5%;
+}
+.topone dl.left{
+  margin-left: 3.5%;
+}
+.topone dl dt{
+  width: 100%;
+  float: left;
+}
+.topone dl dd{
+  width: 100%;
+  height:18px;
+  line-height: 18px;
+  text-align: center;
+  float: left;
+  color: #000;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.swiper{
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+}
+.swiper div{
+  width: 164%;
+  height: auto;
+  float: left;
+  
+  padding: 10px 0;
+  padding-left: 3%;
+}
+.swiper div dl{
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-right: 2%;
+  border-radius: 5px;
+  padding: 8px 1.5%;
+  background: #FFFFFF;
+  box-shadow:0px 0px  6px 3px #aeb6f0;
+}
+.swiper div dl dt{
+  float: left;
+  width: 100%;
+}
+.swiper div dl dd{
+  width: 100%;
+  height: 64px;
+  font-size: 12px;
+  float: left;
+  position: relative;
+}
+.swiper div dl dd p{
+  position: absolute;
+  bottom: 3px;
+  font-weight: 600;
+}
+.swipers div{
+  width: 170%;
+}
+.swiper.swipers{
+  width: 86%;
+  height: auto;
+  margin-left: 7%;
+  background: #FFFFFF;
+  box-shadow:0px 0px  6px 3px #aeb6f0;
+}
+.swiper.swipers div dl{
+  width: 28%;
+  height: auto;
+  float: left;
+  margin-right: 2%;
+  border-radius: 5px;
+  padding: 8px 1.5%;
+  background: #FFFFFF;
+  box-shadow: none;
+}
+.swiper.swipers div dl dd p{
+  width: 100%;
+  text-align: right;
+}
+.footer{
+  width: 86%;
+  margin-left: 7%;
+  float: left;
+}
+.footer dl{
+  width: 44%;
+  height: auto;
+  float: left;
+  background: #FFFFFF;
+  padding: 8px 2%;
+  border-radius: 4px;
+  box-shadow:0px 0px  6px 3px #aeb6f0;
+}
+.footer dl.left{
+  margin-left: 4%;
+}
+.footer dl dt{
+  float: left;
+}
+.footer dl dd{
+  width: 100%;
+  height: 40px;
+  font-size: 12px;
+  float: left;
+  padding-top: 10px;
+  text-align: right;
+  font-weight: 600;
+}
+.bottoms{
+  width: 88%;
+  float: left;
+  font-size: 12px;
+  font-weight: 600;
+  height: 30px;
+  text-align: right;
+  margin-top: 20px;
+}
