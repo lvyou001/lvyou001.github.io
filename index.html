@@ -47,7 +47,7 @@
         <dt><a href="http://www.mafengwo.cn/i/5538675.html"><img src="https://img01.wanfangche.com/public/upload/201806/02/5b12308f31293.png?x-oss-process=style/large" alt=""></a></dt><dd>江原道洛山寺</dd>
       </dl>
     </div>
-    <div class="title"><img src="https://img01.wanfangche.com/public/upload/201806/02/5b122f1b7a2de.png?x-oss-process=style/large" alt=""></div>
+    <div class="title one"><img src="https://img01.wanfangche.com/public/upload/201806/02/5b122f1b7a2de.png?x-oss-process=style/large" alt=""></div>
     <div class="swiper">
       <div>
         <dl>
@@ -66,7 +66,7 @@
       
     </div>
     <p class="bottoms"><a href="http://www.mafengwo.cn/gonglve/ziyouxing/mdd_10184/">>>更多攻略>></a></p>
-    <div class="title"><img src="https://img01.wanfangche.com/public/upload/201806/02/5b122f1b7c4ba.png?x-oss-process=style/large" alt=""></div>
+    <div class="title two"><img src="https://img01.wanfangche.com/public/upload/201806/02/5b122f1b7c4ba.png?x-oss-process=style/large" alt=""></div>
     <div class="swiper swipers">
       <div>
         <dl>
@@ -92,11 +92,12 @@
       </dl>
     </div>
     <div class="foot">
-      <p>自由旅行攻略</p>
-      <p>热门游记</p>
-      <p>旅行商城</p>
+      <p id="btnone">自由旅行攻略</p>
+      <p id="btntwo">热门游记</p>
+      <p id="btnthree">旅行商城</p>
     </div>
   </div>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script>
     window.onload = function(){
         /*720代表设计师给的设计稿的宽度，你的设计稿是多少，就写多少;100代表换算比例，这里写100是
@@ -110,6 +111,23 @@
         var html = document.getElementsByTagName("html")[0];
         var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
         html.style.fontSize = oWidth/pwidth*prem + "px";
+    }
+    var btn1 = document.getElementById('btnone')
+    btn1.onclick = function () {
+      var one = document.getElementsByClassName('one')[0]
+      scrollTo('.one', 300)
+    }
+    $("#btntwo").click(function () {
+      scrollTo('.two', 300)
+    })
+    function scrollTo(ele, speed){
+      if(!speed) speed = 300;
+      if(!ele){
+        $("html,body").animate({scrollTop:0},speed);
+      }else{
+        if(ele.length>0) $("html,body").animate({scrollTop:$(ele).offset().top},speed);
+      }
+      return false;
     }
   </script>
 </body>
