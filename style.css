@@ -85,6 +85,8 @@ div{
   float: left;
   background:#FFFFFF;
   padding: 6px 1.5%;
+  box-shadow:0px 0px  6px 3px #aeb6f0;
+  border-radius: 5px;
 }
 .topone dl.left{
   margin-left: 3.5%;
@@ -109,6 +111,7 @@ div{
   height: auto;
   overflow-x:auto;
   -webkit-overflow-scrolling:touch;
+  border-radius: 5px;
 }
 .swiper div{
   width: 190%;
@@ -117,6 +120,7 @@ div{
   
   padding: 10px 0;
   padding-left: 3%;
+  border-radius: 4px;
 }
 .swiper div dl{
   width: 20%;
@@ -134,15 +138,18 @@ div{
 }
 .swiper div dl dd{
   width: 100%;
-  height: 73px;
+  height: 37px;
   font-size: 12px;
   float: left;
   position: relative;
+  text-align: center;
 }
 .swiper div dl dd p{
   position: absolute;
-  bottom: 3px;
+  width: 100%;
+  top: 10px;
   font-weight: 600;
+  text-align: center;
 }
 .swipers div{
   width: 170%;
@@ -166,7 +173,7 @@ div{
 }
 .swiper.swipers div dl dd p{
   width: 100%;
-  text-align: right;
+  text-align: center;
 }
 .footer{
   width: 86%;
@@ -194,7 +201,7 @@ div{
   font-size: 12px;
   float: left;
   padding-top: 10px;
-  text-align: right;
+  text-align: center;
   font-weight: 600;
 }
 .bottoms{
