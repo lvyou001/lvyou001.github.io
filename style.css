@@ -213,3 +213,7 @@ div{
   text-align: right;
   margin-top: 20px;
 }
+.bottoms a{
+  float: right;
+  width: 1.7rem;
+}
